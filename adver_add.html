@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>发布产品</title>
+	<title>添加广告</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
@@ -73,13 +73,13 @@
             </a>
         </li>
 
-        <li class="active">
+        <li>
             <a href="product_lists.html" >
                 <span class="nav-label">产品列表</span>
             </a>
         </li>
 
-        <li>
+        <li class="active">
             <a href="adver_lists.html" >
                 <span class="nav-label">广告管理</span>
             </a>
@@ -132,10 +132,10 @@
 	        <!-- 面包屑 -->
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-10">
-                    <h2>发布产品</h2>
+                    <h2>添加广告</h2>
                     <ol class="breadcrumb">
                         <li><a href="index.html">首页</a></li>
-                        <li><a href="product_lists.html">产品列表</a></li>
+                        <li><a href="adver_lists.html">广告管理</a></li>
                     </ol>
                 </div>
             </div>
@@ -147,18 +147,27 @@
                     <div class="col-lg-12">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>发布产品 <small>填写信息</small></h5>
+                                <h5>添加广告 <small>填写信息</small></h5>
                             </div>
                             <div class="ibox-content">
     
     <!-- 表单 -->
     <form method="post" class="form-horizontal" enctype="multipart/form-data">
         
-        <!-- 名称 -->
+        <!-- 标题 -->
         <div class="form-group">
-            <label class="col-sm-2 control-label">产品名称</label>
+            <label class="col-sm-2 control-label">标题</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="输入产品的名称">
+                <input type="text" class="form-control" placeholder="输入广告的标题">
+            </div>
+        </div>
+        <div class="hr-line-dashed"></div>
+
+        <!-- 排序 -->
+        <div class="form-group">
+            <label class="col-sm-2 control-label">排序</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" placeholder="排序，不填默认为0">
             </div>
         </div>
         <div class="hr-line-dashed"></div>
@@ -169,18 +178,8 @@
             <div class="col-sm-5">
                 <input type="file" name="thumb" class="form-control">
             </div>
-            
             <div class="col-sm-12 col-sm-offset-2 padding-box">
                 <img src="statics/h5add/img/pic1.jpg" class="image small" alt="">
-            </div>
-        </div>
-        <div class="hr-line-dashed"></div>
-     
-        <!-- 内容 -->
-        <div class="form-group">
-            <label class="col-sm-2 control-label">内容</label>
-            <div class="col-sm-10">
-                <textarea name="content" id="editor" class="form-control heightAuto" ></textarea>
             </div>
         </div>
         <div class="hr-line-dashed"></div>
@@ -254,6 +253,7 @@
     <!-- Sparkline demo data  -->
     <script src="statics/h5add/js/demo/sparkline-demo.js" ></script>
 
+    
     
 </body>
 </html>

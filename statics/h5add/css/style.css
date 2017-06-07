@@ -4113,3 +4113,13 @@ body.skin-3 {
 .form-control.edui-default{
   border:none;
 }
+.image{
+  max-width: 100%;
+}
+.image.small{
+  max-width: 200px;
+}
+.padding-box{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
