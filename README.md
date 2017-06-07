@@ -1,8 +1,12 @@
 # hia_admin
 --- By Date: 2016-12-27
-** HIA家具后台模板 **
+--- By Date: 2017-06-07
 
-## HIA家具网站的后台模板页面
+
+** 后台模板 **
+
+
+## 网站的后台模板页面
 
 1. 登录界面 login.html
 1. 首页 index.html
@@ -34,9 +38,6 @@
 1. 修改密码 change_password.html
 1. 修改个人信息 profile.html
 
-
-## 新闻和产品的发布页面里，已经配置好了 富文本编辑器 
-1. 富文本编辑器内的附件或图片上传，保存路径是默认的，在编辑器目录下。 可以在 statics/ueditor/php/config.json中修改
 
 
 
